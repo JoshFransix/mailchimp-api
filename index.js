@@ -3,8 +3,8 @@ const Mailchimp = require("mailchimp-api-v3");
 const app = express();
 const PORT = 8080;
 
-const API_KEY = "fd7f45f71924405ce0e44a7beed2c795-us21";
-const AUDIENCE_ID = "e801e5fb46";
+const API_KEY = '';
+const AUDIENCE_ID = "";
 const mailchimp = new Mailchimp(API_KEY);
 
 app.use(express.json());
